@@ -1,0 +1,213 @@
+2022-03-17 07:34:58 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.13.1 (launcher version 2.4.2) starting up, args: none
+2022-03-17 07:35:08 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool.runescape.com" (Read timed out)
+2022-03-17 07:35:20 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool136.runescape.com" (Read timed out)
+2022-03-17 07:35:32 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool155.runescape.com" (Read timed out)
+2022-03-17 07:35:44 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool256.runescape.com" (Read timed out)
+2022-03-17 07:35:56 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool219.runescape.com" (Read timed out)
+2022-03-17 07:36:07 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool17a.runescape.com" (Read timed out)
+2022-03-17 07:36:07 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Falling back to backup client config
+2022-03-17 07:36:09 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2022-03-17 07:36:09 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2022-03-17 07:36:10 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 2188984708.69
+2022-03-17 07:36:10 [RuneLite] INFO  n.r.client.account.SessionManager - No session file exists
+2022-03-17 07:36:11 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2022-03-17 07:36:13 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2022-03-17 07:36:17 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 79001ms. Uptime: 91652ms
+2022-03-17 07:36:17 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1366x720,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1366x720,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@2dfea3,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2022-03-17 07:36:18 [Client] WARN  n.r.client.callback.ClientThread - Exception in invoke
+qy: null
+	at mq.l(mq.java:103)
+	at client.c(client.java:118)
+	at client.ek(client.java:128)
+	at client.getItemDefinition(client.java:59703)
+	at net.runelite.client.game.ItemManager.getItemComposition(ItemManager.java:383)
+	at net.runelite.client.plugins.loottracker.LootTrackerPlugin.buildLootTrackerItem(LootTrackerPlugin.java:1192)
+	at net.runelite.client.plugins.loottracker.LootTrackerPlugin.convertToLootTrackerRecord(LootTrackerPlugin.java:1242)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at net.runelite.client.plugins.loottracker.LootTrackerPlugin.lambda$switchProfile$1(LootTrackerPlugin.java:465)
+	at net.runelite.client.callback.ClientThread.lambda$invokeLater$1(ClientThread.java:79)
+	at net.runelite.client.callback.ClientThread.invoke(ClientThread.java:99)
+	at net.runelite.client.callback.Hooks.tick(Hooks.java:193)
+	at client.et(client.java:23914)
+	at client.h(client.java)
+	at al.j(al.java:344)
+	at al.run(al.java:323)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at kq.gc(kq.java)
+	at client.c(client.java:86)
+	... 21 common frames omitted
+2022-03-17 07:38:14 [OkHttp https://api.runelite.net/...] INFO  net.runelite.client.ws.WSClient - Websocket okhttp3.internal.ws.RealWebSocket@e40739 opened
+2022-03-17 07:38:18 [OkHttp https://api.runelite.net/...] INFO  n.r.client.config.ConfigManager - creating new salt as there is no existing one ME4sSGX3xk0_oJkiC5o4
+2022-03-17 07:38:54 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.13.1 (launcher version 2.4.2) starting up, args: none
+2022-03-17 07:39:04 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool.runescape.com" (Read timed out)
+2022-03-17 07:39:16 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool266.runescape.com" (Read timed out)
+2022-03-17 07:39:27 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool218.runescape.com" (Read timed out)
+2022-03-17 07:39:39 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool182.runescape.com" (Read timed out)
+2022-03-17 07:39:51 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool58.runescape.com" (Read timed out)
+2022-03-17 07:40:03 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool55.runescape.com" (Read timed out)
+2022-03-17 07:40:03 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Falling back to backup client config
+2022-03-17 07:40:06 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2022-03-17 07:40:06 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2022-03-17 07:40:06 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 2188984708.69
+2022-03-17 07:40:11 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2022-03-17 07:40:14 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2022-03-17 07:40:18 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 83943ms. Uptime: 88103ms
+2022-03-17 07:40:18 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1366x720,invalid,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1366x720,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@1d90f39,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2022-03-17 07:40:43 [OkHttp https://api.runelite.net/...] INFO  net.runelite.client.ws.WSClient - Websocket okhttp3.internal.ws.RealWebSocket@4b52bf opened
+2022-03-17 07:42:05 [Client] WARN  n.r.client.config.ConfigManager - trying to create profile without display name
+2022-03-17 07:42:05 [Client] INFO  n.r.client.config.ConfigManager - creating new profile rsprofile.s7sH31FX for user bryankhaw95@gmail.com (STANDARD) salt ME4sSGX3xk0_oJkiC5o4
+2022-03-17 07:49:36 [pool-6-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool175.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:853)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:811)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-03-17 07:49:37 [OkHttp https://api.runelite.net/...] WARN  net.runelite.client.ws.WSClient - Error in websocket: null
+javax.net.ssl.SSLException: Software caused connection abort: recv failed
+	at java.base/sun.security.ssl.Alert.createSSLException(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.TransportContext.fatal(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at okio.Okio$2.read(Okio.java:140)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.request(RealBufferedSource.java:72)
+	at okio.RealBufferedSource.require(RealBufferedSource.java:65)
+	at okio.RealBufferedSource.readByte(RealBufferedSource.java:78)
+	at okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.java:117)
+	at okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.java:101)
+	at okhttp3.internal.ws.RealWebSocket.loopReader(RealWebSocket.java:273)
+	at okhttp3.internal.ws.RealWebSocket$1.onResponse(RealWebSocket.java:209)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:174)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(Unknown Source)
+		at java.base/java.net.SocketOutputStream.write(Unknown Source)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(Unknown Source)
+		... 19 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	... 15 common frames omitted
+2022-03-17 08:18:58 [Client] INFO  client-patch - cache animationCache thrashing, enlarging to 128 entries
+2022-03-17 11:41:28 [pool-6-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool262a.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:853)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:811)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-03-17 13:49:03 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.13.1 (launcher version 2.4.2) starting up, args: none
+2022-03-17 13:49:13 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool.runescape.com" (Read timed out)
+2022-03-17 13:49:24 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool155.runescape.com" (Read timed out)
+2022-03-17 13:49:36 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool130a.runescape.com" (Read timed out)
+2022-03-17 13:49:47 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool27.runescape.com" (Read timed out)
+2022-03-17 13:49:59 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool214.runescape.com" (Read timed out)
+2022-03-17 13:50:11 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Failed to get jav_config from host "oldschool1.runescape.com" (Read timed out)
+2022-03-17 13:50:11 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Falling back to backup client config
+2022-03-17 13:50:12 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2022-03-17 13:50:12 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2022-03-17 13:50:13 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 2188984708.69
+2022-03-17 13:50:17 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2022-03-17 13:50:18 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2022-03-17 13:50:22 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 78924ms. Uptime: 91911ms
+2022-03-17 13:50:23 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1366x720,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1366x720,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@11bc043,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2022-03-17 13:50:23 [Client] WARN  n.r.client.callback.ClientThread - Exception in invoke
+qy: null
+	at mq.l(mq.java:103)
+	at client.c(client.java:118)
+	at client.ek(client.java:128)
+	at client.getItemDefinition(client.java:59703)
+	at net.runelite.client.game.ItemManager.getItemComposition(ItemManager.java:383)
+	at net.runelite.client.plugins.loottracker.LootTrackerPlugin.buildLootTrackerItem(LootTrackerPlugin.java:1192)
+	at net.runelite.client.plugins.loottracker.LootTrackerPlugin.convertToLootTrackerRecord(LootTrackerPlugin.java:1242)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at net.runelite.client.plugins.loottracker.LootTrackerPlugin.lambda$switchProfile$1(LootTrackerPlugin.java:465)
+	at net.runelite.client.callback.ClientThread.lambda$invokeLater$1(ClientThread.java:79)
+	at net.runelite.client.callback.ClientThread.invoke(ClientThread.java:99)
+	at net.runelite.client.callback.Hooks.tick(Hooks.java:193)
+	at client.et(client.java:23914)
+	at client.h(client.java)
+	at al.j(al.java:344)
+	at al.run(al.java:323)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: null
+	at kq.gc(kq.java)
+	at client.c(client.java:86)
+	... 21 common frames omitted
+2022-03-17 13:55:30 [pool-6-thread-1] WARN  n.r.c.plugins.worldhopper.ping.Ping - error resolving host for world ping
+java.net.UnknownHostException: No such host is known (oldschool70.runescape.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getByName(Unknown Source)
+	at net.runelite.client.plugins.worldhopper.ping.Ping.ping(Ping.java:56)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.ping(WorldHopperPlugin.java:853)
+	at net.runelite.client.plugins.worldhopper.WorldHopperPlugin.pingNextWorld(WorldHopperPlugin.java:811)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-03-17 21:45:46 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.13.1 (launcher version 2.4.2) starting up, args: none
+2022-03-17 21:45:51 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached vanilla client
+2022-03-17 21:45:51 [Preloader] INFO  net.runelite.client.rs.ClientLoader - Using cached patched client
+2022-03-17 21:45:52 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 2188984708.69
+2022-03-17 21:45:54 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2022-03-17 21:45:56 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2022-03-17 21:45:58 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 12266ms. Uptime: 17956ms
+2022-03-17 21:45:58 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,0,0,1366x720,invalid,layout=java.awt.BorderLayout,title=RuneLite,resizable,maximized,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,1366x720,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@96996f,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]

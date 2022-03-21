@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <plugin filename="&lt;builtin&gt;"><name>Internal</name><description>Objects and filters internal to dia</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\xslt.dll"><name>XSLT</name><description>XSL Transformation filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\xfig.dll"><name>FIG</name><description>Fig Format import and export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\wpg.dll"><name>WPG</name><description>WordPerfect Graphics export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\wmf.dll"><name>WMF</name><description>WMF export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\vdx.dll"><name>VDX</name><description>Visio XML Format import and export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\uml.dll"><name>UML</name><description>Unified Modelling Language diagram objects UML 1.3</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\svg.dll"><name>SVG</name><description>Scalable Vector Graphics import and export filters</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\standard.dll"><name>Standard</name><description>Standard objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\shape.dll"><name>shape</name><description>dia shape export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\sadt.dll"><name>SADT</name><description>SADT diagram objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\pstricks.dll"><name>Pstricks</name><description>TeX Pstricks export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\postscript.dll"><name>Postscript</name><description>Postscript Rendering</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\pixbuf.dll"><name>Pixbuf</name><description>gdk-pixbuf based bitmap export/import</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\pgf.dll"><name>PGF</name><description>LaTeX PGF export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\network.dll"><name>Network</name><description>Network diagram objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\misc.dll"><name>Misc</name><description>Miscellaneous objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\metapost.dll"><name>Metapost</name><description>TeX Metapost export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\libart.dll"><name>Libart</name><description>Libart based rendering</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\Kaos.dll"><name>KAOS</name><description>KAOS diagram</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\Jackson.dll"><name>Jackson</name><description>Jackson diagram</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\Istar.dll"><name>Istar</name><description>Istar diagram</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\hpgl.dll"><name>HPGL</name><description>HP Graphics Language export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\grafcet.dll"><name>GRAFCET</name><description>GRAFCET diagram objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\fs.dll"><name>FS</name><description>Function structure diagram objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\flowchart.dll"><name>Flowchart</name><description>Flowchart objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\er.dll"><name>ER</name><description>Entity/Relationship diagram objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\dxf.dll"><name>DXF</name><description>Drawing Interchange File import and export filters</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\Database.dll"><name>ERT</name><description>Entity/Relationship table diagram objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\custom_lines.dll"><name>CustomLines</name><description>Custom XML lines loader</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\custom.dll"><name>Custom</name><description>Custom XML shapes loader</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\chronogram.dll"><name>Chronogram</name><description>Chronogram diagram objects</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\cgm.dll"><name>CGM</name><description>Computer Graphics Metafile export filter</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\cairo.dll"><name>Cairo</name><description>Cairo based Rendering</description></plugin>
+  <plugin filename="C:\Program Files (x86)\Dia\dia\aadl.dll"><name>AADL</name><description>Architecture Analysis &amp; Design Language diagram objects</description></plugin>
+</plugins>

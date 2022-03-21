@@ -1,0 +1,88 @@
+00:00:00.003499 main     VirtualBox COM Server 6.1.32 r149290 win.amd64 (Jan 17 2022 11:29:30) release log
+00:00:00.003501 main     Log opened 2022-03-01T03:57:16.503409400Z
+00:00:00.003502 main     Build Type: release
+00:00:00.003509 main     OS Product: Windows 11
+00:00:00.003510 main     OS Release: 10.0.22563
+00:00:00.003510 main     OS Service Pack: 
+00:00:00.031873 main     DMI Product Name: X510UQ
+00:00:00.046024 main     DMI Product Version: 1.0       
+00:00:00.046038 main     Firmware type: UEFI
+00:00:00.046438 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.046463 main     Host RAM: 8078MB (7.8GB) total, 4121MB (4.0GB) available
+00:00:00.046468 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.046469 main     Process ID: 5196
+00:00:00.046469 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.162403          VirtualBox: object creation starts
+00:00:00.162709          Home directory: 'C:\Users\bryan\.VirtualBox'
+00:00:00.162844          Installed Drivers:
+00:00:00.167390            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.32.49290)
+00:00:00.168724            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.32.49290)
+00:00:00.169396            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 6.1.32.49290)
+00:00:00.170741            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.32.49290)
+00:00:00.189485          Loading settings file "C:\Users\bryan\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.192220          usbLibGetDevices: Starting USB device enumeration
+00:00:00.194037          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.194110          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:00.197130          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.199082          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x5a07)
+00:00:00.199131          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0a2b)
+00:00:00.304620          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.312052          HostDnsMonitor: initializing
+00:00:00.321609          HostDnsMonitor: updating information
+00:00:00.321651          HostDnsMonitor: old information
+00:00:00.321652            no server entries
+00:00:00.321653            no domain set
+00:00:00.321654            no search string entries
+00:00:00.321654          HostDnsMonitor: new information
+00:00:00.321655            server 1: 10.0.0.1
+00:00:00.321656            no domain set
+00:00:00.321656            no search string entries
+00:00:00.324588          VD: VDInit finished with VINF_SUCCESS
+00:00:00.337538          Loading settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:00:00.338586          VirtualBox: object created
+00:00:04.947125          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:00:04.999889          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:00:21.898497 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:21.902327 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:21.902772 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:21.903688 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:23.601670          Saving settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:00:24.350982          Launched VM: 40320640 pid: 3164 (0xc5c) frontend: GUI/Qt name: Ubuntu Linux
+00:00:28.748648 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:28.750558 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:28.750696 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:28.752276 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:31.926879          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:32.169019          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:32.256402          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:00:35.207542          Saving settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:01:59.408157          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:01:59.460581          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:02:16.096032          Saving settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:02:16.127557          Saving settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:02:16.179960          Saving settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:02:21.470514          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:02:21.526175          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:05:15.313585 dns-monitor HostDnsMonitor: updating information
+00:05:15.313620 dns-monitor HostDnsMonitor: unchanged
+00:06:45.420118 dns-monitor HostDnsMonitor: updating information
+00:06:45.420150 dns-monitor HostDnsMonitor: unchanged
+00:07:33.518890          Launched VM: 39917488 pid: 7304 (0x1c88) frontend: GUI/Qt name: Ubuntu Linux
+00:07:38.385585          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:07:38.584539          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:07:38.890865          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:08:08.965532          Saving settings file "C:\Users\bryan\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:08:09.018838          Saving settings file "C:\Users\bryan\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:08:19.626148          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:08:19.689363          netIfIsWireless: CreateFile on '\\.\{3A4E4F8E-5C31-43EA-9C2E-A5D22EE846B6}' failed with rcWin=2 (0x2) - ignoring
+00:10:30.908147          Saving settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:10:31.058032          Saving settings file "C:\Users\bryan\VirtualBox VMs\Ubuntu Linux\Ubuntu Linux.vbox" with version "1.16-windows"
+00:10:38.834153          Saving settings file "C:\Users\bryan\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:13:11.920406 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:11.923899 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:13:11.924299 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:13:11.925058 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:13:12.564676 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:12.566354 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:13:12.566445 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&152da58&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:13:12.566645 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured

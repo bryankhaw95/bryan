@@ -1,0 +1,11 @@
+2022-03-16 22:42:34 [RuneLite] INFO  net.runelite.client.RuneLite - RuneLite 1.8.13.1 (launcher version 2.4.2) starting up, args: none
+2022-03-16 22:42:42 [Preloader] INFO  net.runelite.client.rs.ClientLoader - client-patch 2188984708.69
+2022-03-16 22:42:43 [RuneLite] INFO  n.r.client.config.ConfigManager - creating new salt as there is no existing one oqMaEEDw8NIiCvPZsZMR
+2022-03-16 22:42:43 [RuneLite] INFO  n.r.client.account.SessionManager - No session file exists
+2022-03-16 22:42:44 [RuneLite] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2022-03-16 22:42:46 [RuneLite] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+2022-03-16 22:42:48 [pool-3-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user bryankhaw_guten_Morgen.
+2022-03-16 22:42:49 [RuneLite] INFO  net.runelite.client.RuneLite - Client initialization took 14460ms. Uptime: 29096ms
+2022-03-16 22:42:49 [AWT-EventQueue-0] INFO  net.runelite.client.ui.ClientUI - Showing frame net.runelite.client.ui.ContainableFrame[frame0,279,93,809x534,layout=java.awt.BorderLayout,title=RuneLite,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,809x534,layout=org.pushingpixels.substance.internal.ui.SubstanceRootPaneUI$SubstanceRootLayout,alignmentX=0.0,alignmentY=0.0,border=org.pushingpixels.substance.internal.utils.border.SubstancePaneBorder@8f9aad,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2022-03-16 22:43:43 [Client] WARN  n.r.client.config.ConfigManager - trying to create profile without display name
+2022-03-16 22:43:43 [Client] INFO  n.r.client.config.ConfigManager - creating new profile rsprofile.-JlWpSFP for user bryankhaw95@gmail.com (STANDARD) salt oqMaEEDw8NIiCvPZsZMR

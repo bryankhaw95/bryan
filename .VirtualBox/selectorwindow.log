@@ -1,0 +1,24 @@
+00:00:00.839754 VirtualBox GUI VM Selector Window 6.1.32 r149290 win.amd64 (Jan 17 2022 11:29:30) release log
+00:00:00.839757 Log opened 2022-03-01T03:57:16.885769900Z
+00:00:00.839758 Build Type: release
+00:00:00.839764 OS Product: Windows 11
+00:00:00.839766 OS Release: 10.0.22563
+00:00:00.839767 OS Service Pack: 
+00:00:00.858450 DMI Product Name: X510UQ
+00:00:00.863177 DMI Product Version: 1.0       
+00:00:00.863195 Firmware type: UEFI
+00:00:00.863573 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.863596 Host RAM: 8078MB (7.8GB) total, 4108MB (4.0GB) available
+00:00:00.863601 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.863601 Process ID: 12912
+00:00:00.863602 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.863739 Qt version: 5.6.2
+00:00:00.881368 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.240389 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:24.184490 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:35.773199 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:17.063018 ERROR [COM]: aRC=E_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:02:17.241917 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:31.473962 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:14:11.695453 GUI: UICommon::sltHandleCommitDataRequest: Emergency shutdown initiated
+00:14:16.102854 VirtualBoxClient: detected unresponsive VBoxSVC (rc=RPC_S_SERVER_UNAVAILABLE 0x800706BA)
