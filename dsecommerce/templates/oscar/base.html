@@ -1,0 +1,14 @@
+{% extends 'oscar\base.html' %}
+{% load i18n %}
+
+{% block title %}
+
+{% trans 'DS E-commerce' %}
+
+{% endblock %}
+
+{% block favicon %}
+{% load static %}
+    <link rel="shortcut icon" href="{% static 'images/dse-logo.jpg' %}"/> 
+
+{% endblock %}
